@@ -58,7 +58,7 @@ This category contains all scripting extensions to CSS, like [postcss-each].
 
 #### Input
 
-```css
+```pcss
 @each $color in red, green, blue {
   .background-$(color) {
     background: $(color);
@@ -114,12 +114,12 @@ Commonly used examples are [postcss-calc] and [postcss-color-function].
 
 #### Input
 
-```css
+```pcss
 /* sizes.css */
 @value size_m: 8px;
 ```
 
-```css
+```pcss
 /* index.css */
 @value size_m from './sizes.css';
 
