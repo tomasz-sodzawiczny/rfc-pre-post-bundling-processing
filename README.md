@@ -30,6 +30,7 @@ All `:import` statements in ICSS are resolved and imported symbols usages are re
 
 In most common setups the resolved CSS modules are finally merged into a single CSS file (bundle).
 
+<br />
 <p align="center">
   <img src="images/css-modules-1.svg">
 </p>
